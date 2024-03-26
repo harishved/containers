@@ -1,0 +1,6 @@
+# A comtainer I built for Jiale Zhang (26 March 2024)
+Bootstrap: docker
+From: debian:latest
+%post
+apt-get update
+apt-get install -y vim python3-numpy python3-scipy python3-astropy python3-casacore python3-matplotlib python3-pywt python3-sunpy python3-tqdm xauth
