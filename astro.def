@@ -1,0 +1,6 @@
+# Very basic astronomy stuff for radio folks
+Bootstrap: docker
+From: debian:latest
+%post
+apt-get update
+apt-get install -y vim python3-numpy python3-scipy python3-astropy python3-casacore python3-matplotlib xauth
